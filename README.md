@@ -62,7 +62,7 @@ These instructions will get you a copy of the project up and running on your loc
    2. Create the virtual environment in Python 3.
    
    ```
-    virtualenv -p C:\Python37\python.exe test_env
+    virtualenv -p C:\Python38\python.exe test_env
    ```    
    
    3. Activate the test environment.     
