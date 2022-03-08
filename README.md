@@ -104,12 +104,8 @@ These instructions will get you a copy of the project up and running on your loc
 5. If the eyes are detected then crop only the eyes and extract the left and right eye from that image. If both eyes are not found, then the driver is looking sideways, so sound the buzzer.
 6. The cropped eye images are sent to the hough transformations for detecting pupils, which will determine whether they are open or closed.
 7. If they are found to be closed for five continuous frames, then the driver should be alerted by playing the buzzer.
-
-### Algorithm 👨‍🔬
-
-Each eye is represented by 6 (x, y)-coordinates, starting at the left-corner of the eye (as if you were looking at the person), and then working clockwise around the eye.
-
-It checks 20 consecutive frames and if the Eye Aspect ratio is less than 0.25, Alert is generated.
+8. Each eye is represented by 6 (x, y)-coordinates, starting at the left-corner of the eye (as if you were looking at the person), and then working clockwise around the eye.
+9. It checks 20 consecutive frames and if the Eye Aspect ratio is less than 0.25, Alert is generated.
 
 <img src="https://github.com/DrArindamGhosh/Real-Time-Drowsiness-Detection-Using-OpenCV/blob/64ea446bae8d23b94330eb484693f4efef8b1c1e/eye1.jpeg">
 
