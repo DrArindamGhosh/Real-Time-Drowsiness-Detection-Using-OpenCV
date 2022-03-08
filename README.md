@@ -43,13 +43,13 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone the repository. 
 
     ```
-    git clone https://github.com/AnshumanSrivastava108/Real-Time-Drowsiness-Detection-System
+    git clone https://github.com/DrArindamGhosh/Real-Time-Drowsiness-Detection-Using-OpenCV.git
     ```
     
 1. Move into the project directory. 
 
     ```
-    cd Real-Time-Drowsiness-Detection-System
+    cd Real-Time-Drowsiness-Detection-Using-OpenCV
     ```
  
 1. (Optional) Running it in a virtual environment. 
