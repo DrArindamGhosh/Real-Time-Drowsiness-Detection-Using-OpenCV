@@ -92,7 +92,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. Run the application.
 
     ```
-    python Real-Time-Drowsiness-Detection-System.py --shape-predictor shape_predictor_68_face_landmarks.dat --alarm Alert.wav
+    python main.py
     ```
 
 ## Alogorithm
